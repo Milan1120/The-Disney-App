@@ -24,7 +24,7 @@ async function isValidUser(){
           }
           if(data[0].password == password){
                alert("login successful");
-               window.location.href = "../main_body/index.html";
+               window.location.href = "../main/index.html";
           }
           else{
                alert("password is incorrect");
